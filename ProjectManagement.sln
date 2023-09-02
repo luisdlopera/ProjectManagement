@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchProject.SHARED", "ResearchProject.SHARED\ResearchProject.SHARED.csproj", "{BE011DB3-6533-4C42-B8F4-9266E4C2EABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchProject.API", "ResearchProject.API\ResearchProject.API.csproj", "{0BAC50AF-19FD-4CC9-812C-1C0EAD19F5CB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE011DB3-6533-4C42-B8F4-9266E4C2EABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE011DB3-6533-4C42-B8F4-9266E4C2EABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE011DB3-6533-4C42-B8F4-9266E4C2EABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE011DB3-6533-4C42-B8F4-9266E4C2EABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAC50AF-19FD-4CC9-812C-1C0EAD19F5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAC50AF-19FD-4CC9-812C-1C0EAD19F5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAC50AF-19FD-4CC9-812C-1C0EAD19F5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAC50AF-19FD-4CC9-812C-1C0EAD19F5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
