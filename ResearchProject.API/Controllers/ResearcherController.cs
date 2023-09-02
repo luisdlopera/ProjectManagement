@@ -15,14 +15,14 @@ namespace ResearchProject.API.Controllers
         {
             _context = context;
         }
-        //obtener Investigador
+        //Obtener o visualizar Investigador
         [HttpGet]
         public async Task<ActionResult> GetResearcher()
         {
             return Ok(await _context.Researchers.ToListAsync());
         }
 
-        //obtener investigador x id
+        //Obtener o visualizar investigador x id
         [HttpGet("{Id:int}")]
         public async Task<ActionResult> GetResearcherXid(int Id)
         {
@@ -35,7 +35,7 @@ namespace ResearchProject.API.Controllers
             return Ok(resear);
         }
 
-        //crear investigador
+        //Crear investigadores
         [HttpPost]
         public async Task<ActionResult> CreateResearcher(Researcher researcher)
         {

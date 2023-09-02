@@ -17,7 +17,6 @@ namespace ResearchProject.SHARED.Entities
 
         [DataType(DataType.Date)]
         public DateTime EndingDate { get; set; }
-
         public string ProjectLeader { get; set; }
         public string ProjectDescription { get; set; }
         public string ResearchArea{ get; set; }
